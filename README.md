@@ -1,2 +1,4 @@
-# brkga-tclp
-BRKGA for the Traffic Counting Location Problem
+# A Biased Random-Key Genetic Algorithm for the Traffic Counting Location Problem
+
+
+The traditional traffic counting location problem (TCLP) aims to determine the location of counting stations that would best cover a road network for the purpose of obtaining traffic flows. This information can be used, for example, to estimate origin-destination (O-D) trip tables. It is well noted that the quality of the estimated OD trip tables is related to an appropriate set of links with traffic counters and to the quality of the traffic counting. In this paper, we propose a Biased Random-key Genetic Algorithm to define the location of the traffic counters in a network, in order to count all flows between origins and destinations. A genetic algorithm of the literature was implemented, and its performance was compared to the proposed BRKGA. Computational experiments conducted on real-world instances, composed by the Brazilian states, have shown the benefit of the proposed method.
